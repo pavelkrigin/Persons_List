@@ -14,6 +14,7 @@
 		CA278D7728BFE3AB009FCAFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA278D7528BFE3AB009FCAFD /* LaunchScreen.storyboard */; };
 		CA278D7F28BFED50009FCAFD /* PersonsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA278D7E28BFED50009FCAFD /* PersonsListViewController.swift */; };
 		CA278D8528BFFE30009FCAFD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA278D8428BFFE30009FCAFD /* Person.swift */; };
+		CA278D8728C0BE0E009FCAFD /* PersonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA278D8628C0BE0E009FCAFD /* PersonDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CA278D7828BFE3AB009FCAFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA278D7E28BFED50009FCAFD /* PersonsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListViewController.swift; sourceTree = "<group>"; };
 		CA278D8428BFFE30009FCAFD /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		CA278D8628C0BE0E009FCAFD /* PersonDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		CA278D8328BFF863009FCAFD /* Table_View_Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				CA278D8628C0BE0E009FCAFD /* PersonDetailsViewController.swift */,
 				CA278D7E28BFED50009FCAFD /* PersonsListViewController.swift */,
 			);
 			path = Table_View_Controllers;
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA278D8728C0BE0E009FCAFD /* PersonDetailsViewController.swift in Sources */,
 				CA278D6B28BFE3A9009FCAFD /* AppDelegate.swift in Sources */,
 				CA278D7F28BFED50009FCAFD /* PersonsListViewController.swift in Sources */,
 				CA278D8528BFFE30009FCAFD /* Person.swift in Sources */,

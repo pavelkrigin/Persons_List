@@ -39,15 +39,19 @@ final class PersonsListViewController: UITableViewController {
  
     // MARK: - Table view delegate
     
-//    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-//        <#code#>
-//    }
-    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: <#T##IndexPath#>, animated: true)
+        let person = personList[indexPath.row]
+        performSegue(withIdentifier: "show", sender: person)
+    }
+        
     // MARK: - Navigation
 
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         //должен передавать экзепляр модели
+        guard let personDetailsVC = segue.destination as? PersonDetailsViewController else { return }
+        personDetailsVC.person = sender as? Person
         
     }
     
